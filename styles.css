@@ -12,7 +12,7 @@
 
 /* ROOT VARIABLES */
 :root {
-    --teal: #4CA7C0;
+    --Teal: #4CA7C0;
     --Purple: #484FB7;
     --Lavender: #6B8FE7;
     --Yellow: #E9BB57;
@@ -177,3 +177,81 @@ p {
     background-color: var(--Pink);
     padding: 20px;
 }
+
+#why-choose-us h2 {
+    color: var(--White);
+    margin: 0;
+}
+
+/* BOX STYLES */
+#why-choose-us ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#why-choose-us li {
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+.personal {
+    background-color: var(--Teal);
+}
+
+.proven {
+    background-color: var(--Lavender);
+}
+
+.supportive {
+    background-color: var(--Yellow);
+}
+
+.flexible {
+    background-color: var(--White);
+}
+
+/* PRICING SECTION */
+#prices {
+    background-color: var(--Purple);
+    padding: 20px;
+}
+
+#prices h2 {
+    color: var(--White);
+    margin: 0;
+}
+
+#prices h3 {
+    color: var(--Yellow);
+    margin-bottom: 10px;
+}
+
+/*TABLE STYLES */
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto 20px;
+
+}
+
+th {
+    background-color: var(--Yellow);
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+td {
+    border : 2px solid var(--Yellow);
+    padding: 10px;
+    background-color: var(--White);
+}
+
+th, td {
+    text-align: center;
+}
+
