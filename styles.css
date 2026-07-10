@@ -1,5 +1,16 @@
+/*CSS BY Erwin Reyes */
+
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
+/*CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
 :root {
     --teal: #4CA7C0;
     --Purple: #484FB7;
@@ -10,25 +21,65 @@
     --White: #ffffff;
 }
 
+/* GLOBAL STYLES */
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: var(--Lavender);
-}
-h1, h2 {
-    font-family: 'Kavoon', serif;
+    color: var(--Dark-gray);
+    max-width: 450px;
+    font-family: 'Inter', sans-serif;
 }
 
-body {
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Styles */
+
+header {
+    background-color: var(--Purple);
+    text-align: center;
+}
+
+header nav {
+    background-color: var(--Yellow);
+    text-align: center;
+}
+
+header p {
+    color: var(--White);
+    margin-top: 0.5rem;
     font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--White);
+    padding-top: 30px;
+}
+
+/* Heading Styles */
+h1, h2 {
+    font-family: "Kavoon", serif;
 }
 
 h1 {
     font-size: 3em;
-}
-
-nav h2 {
-    font-size: 1.5em;
+    color: var(--White);
 }
 
 h2 {
@@ -37,8 +88,92 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
 }
 
 h4 {
     font-size: 1.15em;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: var(--Purple);
+    margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: var(--Yellow);
+    padding: 20px;
+    text-align: center;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+/* Navigation Links Styles */
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav a {
+    display: block;
+    background-color: var(--White);
+    color: var(--Purple);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* OUR SERVICES SECTION */
+
+#services {
+    background-color: var(--Purple);
+    padding: 20px;
+}
+
+#services h2 {
+    color: var(--White);
+    margin: 0;
+}
+
+#services h3 {
+    color: var(--Yellow);
+    margin-bottom: 15px;
+}
+
+/* ARTICLE STYLES */
+article {
+    background-color: var(--White);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+article img {
+    margin-bottom: 10px;
+}
+
+/* PARAGRAPH STYLES */
+p {
+    line-height: 1.5;
+}
+
+/* WHY CHOOSE US SECTION */
+#why-choose-us {
+    background-color: var(--Pink);
+    padding: 20px;
 }
