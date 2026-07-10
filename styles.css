@@ -233,9 +233,9 @@ p {
 /*TABLE STYLES */
 
 table {
-    width: 50%;
+    width: 60%;
     border-collapse: collapse;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 
 }
 
@@ -255,3 +255,42 @@ th, td {
     text-align: center;
 }
 
+/*CONTACT SECTION */
+
+#contact {
+    background-color: var(--Pink);
+    padding: 20px;
+    color: var(--White);
+}
+
+#contact p {
+    color: var(--White);
+    margin-top: 10px;
+}
+
+/* BUTTON STYLES */
+.cta-button {
+    background: var(--White);
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 0 var(--Dark-gray);
+}
+
+footer {
+    background: var(--Purple);
+    color: var(--White);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: var(--White);
+}
